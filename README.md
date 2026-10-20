@@ -4,6 +4,8 @@ Switch between virtual desktops on Windows with a key + mouse wheel.
 
 Hold the key, scroll, and move between desktops. That's it.
 
+![Spaces](assets/screenshot.png)
+
 ## Features
 
 - Any key as trigger: Win, Alt, Shift, Caps Lock, or F1–F12
