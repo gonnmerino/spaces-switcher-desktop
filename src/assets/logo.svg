@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  
+  <g transform="translate(-151.72 -95.20) scale(1.03707)">
+  <defs>
+    <linearGradient id="gFront" x1="578" y1="432" x2="873" y2="810" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/><stop offset=".55" stop-color="#d6d9e4"/><stop offset="1" stop-color="#9aa1b8"/>
+    </linearGradient>
+    <linearGradient id="gMid" x1="0" y1="460" x2="0" y2="740" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6a7083"/><stop offset="1" stop-color="#262b3b"/>
+    </linearGradient>
+    <linearGradient id="gBack" x1="0" y1="498" x2="0" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a5063"/><stop offset="1" stop-color="#1b1f2c"/>
+    </linearGradient>
+    <linearGradient id="gRing" x1="-419" y1="0" x2="419" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9aa0b4"/><stop offset=".3" stop-color="#e8eaf2"/><stop offset=".6" stop-color="#ffffff"/><stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <clipPath id="cFront"><rect x="-700" y="0" width="1400" height="400"/></clipPath>
+    <clipPath id="cBack"><rect x="-700" y="-400" width="1400" height="400"/></clipPath>
+  </defs>
+  <g transform="translate(641 628) rotate(-12.7)"><path d="M-419 0 A419 122 0 1 0 419 0 A419 122 0 1 0 -419 0 Z M-413 -10 A413 107 0 1 0 413 -10 A413 107 0 1 0 -413 -10 Z" fill="url(#gRing)" fill-rule="evenodd" clip-path="url(#cBack)" opacity=".55"/></g>
+  <path d="M390 498 L500 526 L500 740 L390 718 Q375 715 375 701 L375 513 Q375 496 390 498 Z" fill="url(#gBack)"/>
+  <path d="M483 460 L600 490 L600 760 L483 738 Q468 735 468 721 L468 475 Q468 458 483 460 Z" fill="url(#gMid)"/>
+  <path d="M592 432 L858 514 Q873 519 873 536 L873 748 Q873 760 860 763 L614 820 Q578 826 578 802 L578 448 Q578 428 592 432 Z" fill="url(#gFront)"/>
+  <g fill="#7b8094"><circle cx="617" cy="477" r="9.5"/><circle cx="644" cy="488" r="9.5"/><circle cx="671" cy="494" r="9.5"/></g>
+  <g transform="translate(641 628) rotate(-12.7)"><path d="M-419 0 A419 122 0 1 0 419 0 A419 122 0 1 0 -419 0 Z M-413 -10 A413 107 0 1 0 413 -10 A413 107 0 1 0 -413 -10 Z" fill="url(#gRing)" fill-rule="evenodd" clip-path="url(#cFront)"/></g>
+  <path d="M890 348 Q893 408 968 420 Q893 432 890 495 Q887 432 812 420 Q887 408 890 348 Z" fill="#ffffff"/>
+</g>
+</svg>
