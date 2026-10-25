@@ -1,0 +1,51 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Spaces",
+  "version": "1.0.0",
+  "identifier": "com.gonnmerino.spaces",
+  "build": {
+    "beforeDevCommand": "bun run dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "cargo build --manifest-path src-tauri/Cargo.toml --release --bin hook_helper && bun run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "Spaces",
+        "width": 680,
+        "height": 340,
+        "center": true,
+        "resizable": false,
+        "maximizable": false,
+        "visible": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "publisher": "@gonnmerino",
+    "copyright": "© @gonnmerino",
+    "shortDescription": "Switch between virtual desktops using a key and the mouse wheel.",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "windows": {
+      "nsis": {
+        "installerIcon": "icons/icon.ico"
+      },
+      "wix": {
+        "upgradeCode": "7e665bfc-61c3-5ac4-9910-258c96e7aa5f"
+      }
+    }
+  }
+}
