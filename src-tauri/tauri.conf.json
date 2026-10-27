@@ -29,7 +29,7 @@
   "bundle": {
     "active": true,
     "targets": "all",
-    "publisher": "@gonnmerino",
+    "publisher": "Gonzalo Meriño",
     "copyright": "© @gonnmerino",
     "shortDescription": "Switch between virtual desktops using a key and the mouse wheel.",
     "icon": [

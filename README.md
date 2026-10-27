@@ -25,9 +25,17 @@ Click the tray icon to open **Settings** — change the key, animation style, la
 
 ## Download
 
+### Microsoft Store
+
+[Get Spaces Switcher from Microsoft Store](https://apps.microsoft.com/detail/9P5LV3B6RG8T)
+
+Signed by Microsoft — installs with **no SmartScreen warning**.
+
+### Direct download
+
 Get the installer from [Releases](../../releases) and run it.
 
-> Windows SmartScreen may warn since the app isn't signed. Click _More info → Run anyway_.
+> This build isn't signed, so Windows SmartScreen may warn. Click _More info → Run anyway_.
 
 **Requires** Windows 10 / 11 (x64).
 

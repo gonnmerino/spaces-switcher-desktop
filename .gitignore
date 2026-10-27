@@ -25,3 +25,10 @@ dist-ssr
 
 # Secrets
 .env
+
+# MSIX staging (se regenera en cada build)
+msix/dist/
+*.msix
+
+# Development certificate
+devcert.pfx
